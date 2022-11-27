@@ -10,6 +10,6 @@ public class ChefDeGroupe extends Pax {
 
 	public static void LancerGrenade(int distance, int nombre, String objectif, String feu) {
 		
-		System.out.println("Lancer de " + nombre + " grenades sur " + objectif + " à " + distance + feu);
+		System.out.println("Lancer de " + nombre + " grenades sur " + objectif + "à " + distance + feu);
 	}
 }
