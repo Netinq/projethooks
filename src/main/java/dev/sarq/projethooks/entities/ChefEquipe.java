@@ -8,8 +8,8 @@ public class ChefEquipe extends Pax{
 		super(nom, prenom, age, grade);
 	}
 	
-	public static void OrdreDeDéplacement(String pointAtteindre,String itinéraire,String formation) {
+	public void ordreDeDeplacement(String pointAtteindre,String itinéraire,String formation) {
 		
-		System.out.println("Le point à atteindre est " + pointAtteindre + itinéraire + " en " + formation);
+		System.out.println("Le point à atteindre est " + pointAtteindre + " " + itinéraire + " en " + formation);
 	}
 }
